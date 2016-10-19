@@ -1,0 +1,7 @@
+.round-marker {
+  border: 1px red solid;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 7px;
+  background: white;
+}

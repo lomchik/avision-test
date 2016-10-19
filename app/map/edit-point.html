@@ -1,0 +1,17 @@
+<div class="modal-header">
+
+    <button type="button" class="close" data-dismiss="modal" ng-click="cancel();">&times;</button>
+    <h4 class="modal-title">Appointment</h4>
+</div>
+
+<div class="modal-body">
+    <label>Number: <input type="number" ng-model="point.number" disabled="true"></label><br>
+    <label>Lat: <input type="number" ng-model="point.lat"></label><br>
+    <label>Lng: <input type="number" ng-model="point.lng"></label><br>
+    <label>Height: <input type="number" ng-model="point.height"></label>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" ng-click="cancel()">Cancel</button>
+    <button type="button" class="btn btn-success" ng-click="save(point)">Save</button>
+    <button type="button" class="btn btn-danger" ng-click="delete(point)">Delete</button>
+</div>
